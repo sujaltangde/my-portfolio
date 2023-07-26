@@ -1,0 +1,29 @@
+[
+    {
+        "image":"/images/blog.png",
+        "title":"Blogwiz - Bloging Platform",
+        "stack":"React.Js, Redux, Tailwind CSS, Node.Js, MongoDB",
+        "demo":"https://blogwiz-01.netlify.app/",
+        "code":"https://github.com/sujaltangde/Blogwiz-app/",
+        "desc":"Empowering bloggers with an intuitive platform to share ideas effortlessly.",
+        "key":1
+    },
+    {
+        "image":"/images/todo.png",
+        "title":"Doithero - todo's list",
+        "stack":"React.Js, Redux, Tailwind CSS, Node.Js, MongoDB",
+        "demo":"https://doithero.netlify.app/",
+        "code":"https://github.com/sujaltangde/doithero-app",
+        "desc": "Ability to add and edit your tasks and access it from any device.",
+        "key":2
+    },
+    {
+        "image":"/images/weather.png",
+        "title":"Weather App",
+        "stack":"HTML, CSS, Javascript, Bootstrap, React.Js",
+        "demo":"https://weatherapp-d3ecd.web.app/",
+        "code":"https://github.com/sujaltangde/WeatherApp",
+        "desc":"Ability to show realtime weather related data from diffrent cities.",
+        "key":3
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "key":1 ,
+        "logo":"/images/html.png",
+        "name":"HTML"
+    },
+    {
+        "key":2 ,
+        "logo":"/images/css.png",
+        "name":"CSS"
+    },
+    {
+        "key":3 ,
+        "logo":"/images/js.png",
+        "name":"Javascript"
+    },
+    {
+        "key":4 ,
+        "logo":"/images/tailwind.png",
+        "name":"Tailwind CSS"
+    },
+    {
+        "key":5 ,
+        "logo":"/images/bootstrap.png",
+        "name":"Bootstrap 5"
+    },
+    {
+        "key":6 ,
+        "logo":"/images/react.png",
+        "size":"w-4/5",
+        "name":"React Js"
+    },
+    {
+        "key":7 ,
+        "logo":"/images/redux.png",
+        "name":"Redux"
+    },
+    {
+        "key":8 ,
+        "logo":"/images/vite.svg",
+        "name":"Vite"
+    },
+    {
+        "key":9 ,
+        "logo":"/images/node.png",
+        "name":"Node Js"
+    },
+    {
+        "key":10 ,
+        "logo":"/images/express.png",
+        "name":"Express Js"
+    },
+    {
+        "key":11 ,
+        "logo":"/images/mongo.png",
+        "name":"MongoDB"
+    },
+    {
+        "key":12 ,
+        "logo":"/images/git.png",
+        "name":"Git & Github"
+    }
+]
