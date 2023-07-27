@@ -17,7 +17,7 @@ export const Header = () => {
             <p className='font-bold md:text-7xl relative pb-3 md:px-10 text-4xl '>I'm a Full Stack Developer <span className='absolute md:bottom-6  bottom-5 '> <img src="/images/hand.png" className='md:w-14 w-8' alt="" /></span> </p>
             <p className='text-gray-200 md:flex hidden md:px-10 text-lg'>As an full stack developer, I am skilled in React for crafting dynamic UIs and Node.js with Express for building efficient backends. My focus is on delivering software that impresses users with its performance and usability.</p>
             <div className='md:pt-6 pt-3  md:px-10 md:flex hidden justify-start items-center'>
-              <a href='https://drive.google.com/file/d/16a3PE7Fk7nsWVrgIx0yFB1L3SBlIHNHv/view?usp=sharing' target='_blank'><button className='px-8 flex flex-row  bg-gradient-to-r py-2 font-bold text-md md:text-lg rounded justify-center items-center   from-blue-700 to-blue-500'>Resume <AiOutlineLink className='pb-1' size={22} /> </button></a>
+              <a href='https://drive.google.com/file/d/1lUAILSTo0CNlRi58TOZZUNlhemOQ0dhw/view' target='_blank'><button className='px-8 flex flex-row  bg-gradient-to-r py-2 font-bold text-md md:text-lg rounded justify-center items-center   from-blue-700 to-blue-500'>Resume <AiOutlineLink className='pb-1' size={22} /> </button></a>
             </div>
           </div>
           <div className='md:pr-5 '>
@@ -40,7 +40,7 @@ export const Header = () => {
             <p className='text-gray-200 md:hidden text-left flex md:px-10 text-lg'>As an full stack developer, I am skilled in React for crafting dynamic UIs and Node.js with Express for building efficient backends. </p>
 
             <div className='md:hidden flex absolute right-2 top-28'>
-              <a href='https://drive.google.com/file/d/16a3PE7Fk7nsWVrgIx0yFB1L3SBlIHNHv/view?usp=sharing' target='_blank'><button className='px-7 flex flex-row  bg-gradient-to-r py-2 font-bold text-md md:text-lg rounded-md justify-center items-center   from-blue-700 to-blue-500'>Resume <AiOutlineLink className='pb-1' size={22} /> </button></a>
+              <a href='https://drive.google.com/file/d/1lUAILSTo0CNlRi58TOZZUNlhemOQ0dhw/view' target='_blank'><button className='px-7 flex flex-row  bg-gradient-to-r py-2 font-bold text-md md:text-lg rounded-md justify-center items-center   from-blue-700 to-blue-500'>Resume <AiOutlineLink className='pb-1' size={22} /> </button></a>
             </div>
           </div>
           <div></div>
