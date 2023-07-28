@@ -17,31 +17,20 @@ export const Projects = () => {
             {
               ProjectsSource.map((e) => (
 
+                <>
 
-                <div key={e.key} className='bg-gray-900 p-3  shadow-blue-300 pt-2 shadow-md rounded-md relative overflow-hidden'>
-
-
-                  <div className='object-cover'>
-                    <img src={e.image} className='object-cover rounded-md w-full h-full' alt="" />
-                  </div>
-                  <p className='text-center text-xl pt-2 pb-1 font-bold'>{e.title}</p>
-                  <p className='text-center text-sm'>{e.desc} </p>
-                  <p className='text-center text-white font-bold mt-2    rounded-md pb-1 pt-1 text-sm'>{e.stack}</p>
-
-
-                  <div className="bottom-opening ">
-                    <div className="">
-                      <div className="flex justify-center gap-5 items-center h-full">
-
-                        <a href={e.code} target='_blank'><button className="bg-gradient-to-r from-purple-500 to-purple-900 text-white font-bold rounded-lg px-8 py-2 mx-2">Code</button></a>
-
-                        <a href={e.demo} target='_blank'>
-                          <button className="bg-gradient-to-r from-purple-500 to-purple-900 text-white font-bold rounded-lg px-8 py-2 mx-2">Demo</button>
-                        </a>
-                      </div>
+                  <div className=' '>
+                    <div className='text-center relative  hover:bg-blue-500 '>
+                      <img src={e.image} className=' hover:opacity-25 ' alt="" />
+                      <p className='text-xl hover:opacity-25 py-2'>{e.title}</p>
+                      <p className='px-3 hover:opacity-25'>{e.desc}</p>
                     </div>
+
+                    
                   </div>
-                </div>
+
+
+                </>
 
 
 
@@ -53,10 +42,6 @@ export const Projects = () => {
 
 
 
-          </div>
-
-          <div className='pt-20'>
-            <p className='text-center'>Checkout some of my projects above that demonstrate my skills and expertise as a Full Stack Web Developer. Each project showcases the technologies used, challenges overcome, and the impact it made. Feel free to explore the live projects or view their source code on GitHub.</p>
           </div>
 
 
