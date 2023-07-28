@@ -46,7 +46,7 @@ export const Header = () => {
           <div className='md:pt-6 pt-5 relative md:px-10 md:hidden text-white flex flex-col justify-end items-center'>
             <p className='text-gray-200 md:hidden text-left flex md:px-10 text-lg'>My name is Sujal Tangde, and I'm a web developer. My focus is on delivering web applications that impress users with their performance.</p>
 
-            <div className='md:hidden flex absolute  right-2 top-28'>
+            <div className='md:hidden flex justify-end w-full '>
               <a href='https://drive.google.com/file/d/1lUAILSTo0CNlRi58TOZZUNlhemOQ0dhw/view' target='_blank'><button className='px-7 flex flex-row  bg-gradient-to-r py-2 font-bold text-md md:text-lg rounded-md justify-center items-center   from-blue-700 to-blue-500'>Resume <AiOutlineLink className='pb-1' size={22} /> </button></a>
             </div>
           </div>
