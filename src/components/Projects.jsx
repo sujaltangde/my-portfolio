@@ -20,7 +20,7 @@ export const Projects = () => {
 
                 <>
 
-                  <div className=' h-fit group shadow-md   shadow-blue-500  rounded-md p-3 cursor-pointer'>
+                  <div className=' h-fit group shadow-md   shadow-blue-500  rounded-md p-1 cursor-pointer'>
                     <div className='text-center relative  overflow-hidden  '>
                       <img src={e.image} className='  ' alt="" />
                       <div className='absolute h-full w-full bg-black/60 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300'>
@@ -38,11 +38,11 @@ export const Projects = () => {
                         </div>
 
                       </div>
-                      <p className='text-xl font-bold py-2'>{e.title}</p>
-                      <p className='px-3 '>{e.desc}</p>
+                      <p className='text-xl text-left pl-3 font-bold py-2'>{e.title}</p>
+                      <p className='px-3 text-left pl-3  '>{e.desc}</p>
 
 
-                    </div>
+                    
 
 
                     <div className='flex flex-wrap px-3 pt-3 gap-3  justify-start'>
@@ -55,7 +55,7 @@ export const Projects = () => {
 
 
                     </div>
-
+                    </div>
                     
                   </div>
 
