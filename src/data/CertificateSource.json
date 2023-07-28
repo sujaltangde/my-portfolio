@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Codegoda 2023",
+        "logo":"/images/agoda.jpg",
+        "date":"1 April 2023",
+        "org":"Agoda",
+        "link":"https://drive.google.com/file/d/12_en6OcHMJoFAzYiTv0KXah7bsUCLxnO/view?usp=sharing"
+    },
+    {
+        "name":"EHAM Coding Competition",
+        "logo":"/images/eham.png",
+        "date":"27 Feb 2023",
+        "org":"EHAM",
+        "link": "https://drive.google.com/file/d/1QyTeAKKDlJ56WxvLaMJHPsjxHBmznug3/view?usp=sharing"
+    },
+    {
+        "name":"Zuno Fellowship ",
+        "logo":"/images/zuno.jpg",
+        "date":"28 Jan 2023",
+        "org":"Zuno",
+        "link":"https://drive.google.com/file/d/1fWEqjECNP8PpjQkib6UMdf-PH49K5rKO/view?usp=sharing"
+    },
+    {
+        "name":"Synergy'22",
+        "logo":"/images/gcoe.jpg",
+        "date":"12 Oct 2022",
+        "org":"GCOE",
+        "link":"https://drive.google.com/file/d/1v0Xh60t8uaUaKsm1wGjQ6ts9BqqkWt1V/view?usp=sharing"
+    },
+    {
+        "name":"Abhyaaya'23",
+        "logo":"/images/gcoe.jpg",
+        "date":"4 Aug 2023",
+        "org":"GCOE",
+        "link":"https://drive.google.com/file/d/120uPcpQS5UtjZYNLAdDCCi4VJR9m9dmI/view?usp=sharing"
+    },
+    {
+        "name":"Abhyaaya'22",
+        "logo":"/images/gcoe.jpg",
+        "date":"4 April 2022",
+        "org":"GCOE",
+        "link":"https://drive.google.com/file/d/1cuXTNyvPn3EoKTuWRP-YjxUL3kgtQCeI/view?usp=sharing"
+    }
+]

@@ -6,24 +6,24 @@
 
 
 
+@layer components {
 
 
-body{
+  body {
     font-family: 'Josefin Sans', sans-serif;
-}
+  }
 
-.handWrite{
+  .handWrite {
     font-family: 'Great Vibes', cursive;
-}
+  }
 
 
+  .focus-in-contract-bck {
+    animation: focus-in-contract-bck 1s cubic-bezier(.25, .46, .45, .94) both
+  }
 
 
-
-.focus-in-contract-bck{animation:focus-in-contract-bck 1s cubic-bezier(.25,.46,.45,.94) both}
-
-
-.bottom-opening {
+  .bottom-opening {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -32,8 +32,12 @@ body{
     overflow: hidden;
     transition: height 0.3s ease;
   }
-  
+
   /* Hover effect - expand the bottom opening on hover */
   .bg-gray-900:hover .bottom-opening {
-    height: 100px; /* Adjust the height as needed */
+    height: 100px;
+    /* Adjust the height as needed */
   }
+
+
+}

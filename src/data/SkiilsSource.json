@@ -1,63 +1,93 @@
 [
     {
-        "key":1 ,
-        "logo":"/images/html.png",
-        "name":"HTML"
+        "key": 1,
+        "logo": "/images/html.png",
+        "name": "HTML",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
     },
     {
-        "key":2 ,
-        "logo":"/images/css.png",
-        "name":"CSS"
+        "key": 2,
+        "logo": "/images/css.png",
+        "name": "CSS",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
     },
     {
-        "key":3 ,
-        "logo":"/images/js.png",
-        "name":"Javascript"
+        "key": 3,
+        "logo": "/images/js.png",
+        "name": "JavaScript",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
-        "key":4 ,
-        "logo":"/images/tailwind.png",
-        "name":"Tailwind CSS"
+        "key": 4,
+        "logo": "/images/tailwind.png",
+        "name": "Tailwind CSS",
+        "link": "https://tailwindcss.com/"
     },
     {
-        "key":5 ,
-        "logo":"/images/bootstrap.png",
-        "name":"Bootstrap 5"
+        "key": 5,
+        "logo": "/images/bootstrap.png",
+        "name": "Bootstrap 5",
+        "link": "https://getbootstrap.com/"
     },
     {
-        "key":6 ,
-        "logo":"/images/react.png",
-        "size":"w-4/5",
-        "name":"React Js"
+        "key": 6,
+        "logo": "/images/react.png",
+        "size": "w-4/5",
+        "name": "React Js",
+        "link": "https://reactjs.org/"
     },
     {
-        "key":7 ,
-        "logo":"/images/redux.png",
-        "name":"Redux"
+        "key": 7,
+        "logo": "/images/redux.png",
+        "name": "Redux",
+        "link": "https://redux.js.org/"
     },
     {
-        "key":8 ,
-        "logo":"/images/vite.svg",
-        "name":"Vite"
+        "key": 8,
+        "logo": "/images/vite.svg",
+        "name": "Vite",
+        "link": "https://vitejs.dev/"
     },
     {
-        "key":9 ,
-        "logo":"/images/node.png",
-        "name":"Node Js"
+        "key": 9,
+        "logo": "/images/node.png",
+        "name": "Node Js",
+        "link": "https://nodejs.org/"
     },
     {
-        "key":10 ,
-        "logo":"/images/express.png",
-        "name":"Express Js"
+        "key": 10,
+        "logo": "/images/express.png",
+        "name": "Express Js",
+        "link": "https://expressjs.com/"
     },
     {
-        "key":11 ,
-        "logo":"/images/mongo.png",
-        "name":"MongoDB"
+        "key": 11,
+        "logo": "/images/mongo.png",
+        "name": "MongoDB",
+        "link": "https://www.mongodb.com/"
     },
     {
-        "key":12 ,
-        "logo":"/images/git.png",
-        "name":"Git & Github"
+        "key": 12,
+        "logo": "/images/git.png",
+        "name": "Git & Github",
+        "link": "https://git-scm.com/"
+    },
+    {
+        "key": 13,
+        "logo": "/images/cpp.png",
+        "name": "C++",
+        "link": "https://isocpp.org/"
+    },
+    {
+        "key": 14,
+        "logo": "/images/java.png",
+        "name": "Java",
+        "link": "https://www.java.com/"
+    },
+    {
+        "key": 15,
+        "logo": "/images/sass.png",
+        "name": "Sass",
+        "link": "https://sass-lang.com/"
     }
 ]

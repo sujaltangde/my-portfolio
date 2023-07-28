@@ -32,13 +32,13 @@ export const Contact = () => {
 
                         <div>
 
-                            <h3 className=' text-2xl font-semibold pt-10  text-center pb-3'>Find me on</h3>
+                            <h3 className=' text-2xl font-semibold pt-10  text-center pb-3'>Lets connect</h3>
                             <div className='social flex justify-center ' >
                                 <div className="grid grid-cols-4 gap-4" >
-                                    <a href="https://twitter.com/SujalTangde" target="_blank" rel="noopener noreferrer">  <FiTwitter size={30} />  </a>
-                                    <a href="https://www.linkedin.com/in/sujal-tangde-6711a8204" target="_blank" rel="noopener noreferrer"><AiFillLinkedin size={32} /></a>
-                                    <a href="https://github.com/sujaltangde" target="_blank" rel="noopener noreferrer"><BsGithub size={30} /></a>
-                                    <a href="mailto:sujaltagade01@gmail.com" rel="noreferrer"><AiOutlineMail size={30} /></a>
+                                    <a href="https://twitter.com/SujalTangde" target="_blank" rel="noopener noreferrer">  <FiTwitter size={30} className='hover:text-blue-500'  />  </a>
+                                    <a href="https://www.linkedin.com/in/sujal-tangde-6711a8204" target="_blank" rel="noopener noreferrer"><AiFillLinkedin size={32} className='hover:text-blue-500' /></a>
+                                    <a href="https://github.com/sujaltangde" target="_blank" rel="noopener noreferrer"><BsGithub size={30} className='hover:text-blue-500' /></a>
+                                    <a href="mailto:sujaltagade01@gmail.com" rel="noreferrer"><AiOutlineMail size={30} className='hover:text-blue-500' /></a>
                                 </div>
                             </div>
                         </div>

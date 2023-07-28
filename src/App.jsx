@@ -6,6 +6,7 @@ import { Projects } from './components/Projects'
 import { Experience } from './components/Experience'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
+import { Certificates } from './components/Certificates'
 
 
 function App() {
@@ -16,9 +17,10 @@ function App() {
 
       <Navbar/>
       <Header/>
-      {/* <About/> */}
+      <About/>
       <Experience/>
       <Projects/>
+      <Certificates/>
       <Contact/>
       <Footer/>
 
