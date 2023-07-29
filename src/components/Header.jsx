@@ -24,7 +24,7 @@ export const Header = () => {
             <p className='text-gray-200 md:flex hidden  md:px-10 text-lg'>
             My name is Sujal Tangde, and I'm a full-stack developer. I have an strong passion for coding and building high-quality web applications. I am constantly seeking opportunities to grow professionally and contribute my skills to good projects and organizations.</p>
             <div className='md:pt-6 pt-3  md:px-10 md:flex hidden justify-start items-center'>
-              <a href='https://drive.google.com/file/d/1lUAILSTo0CNlRi58TOZZUNlhemOQ0dhw/view' target='_blank'><button className='px-8 flex flex-row  bg-gradient-to-r py-2 font-bold text-md md:text-lg rounded justify-center items-center   from-blue-700 to-blue-500'>Resume <AiOutlineLink className='pb-1' size={22} /> </button></a>
+              <a href='https://drive.google.com/file/d/12-NkdnVYRiIFY8Iz36z4wlhDDLESs0KP/view' target='_blank'><button className='px-8 flex flex-row  bg-gradient-to-r py-2 font-bold text-md md:text-lg rounded justify-center items-center   from-blue-700 to-blue-500'>Resume <AiOutlineLink className='pb-1' size={22} /> </button></a>
             </div>
           </div>
           <div className='md:pr-5 '>
@@ -47,7 +47,7 @@ export const Header = () => {
             <p className='text-gray-200 md:hidden text-left flex md:px-10 text-lg'>My name is Sujal Tangde, and I'm a web developer. My focus is on delivering web applications that impress users with their performance.</p>
 
             <div className='md:hidden flex justify-end w-full '>
-              <a href='https://drive.google.com/file/d/1lUAILSTo0CNlRi58TOZZUNlhemOQ0dhw/view' target='_blank'><button className='px-7 flex flex-row  bg-gradient-to-r py-2 font-bold text-md md:text-lg rounded-md justify-center items-center   from-blue-700 to-blue-500'>Resume <AiOutlineLink className='pb-1' size={22} /> </button></a>
+              <a href='https://drive.google.com/file/d/12-NkdnVYRiIFY8Iz36z4wlhDDLESs0KP/view' target='_blank'><button className='px-7 flex flex-row  bg-gradient-to-r py-2 font-bold text-md md:text-lg rounded-md justify-center items-center   from-blue-700 to-blue-500'>Resume <AiOutlineLink className='pb-1' size={22} /> </button></a>
             </div>
           </div>
           <div></div>
