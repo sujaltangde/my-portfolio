@@ -32,7 +32,7 @@
         "tech":["Javascript","React.Js","Tailwind CSS","Node.Js","Socket.Io"],
         "demo":"https://vibe-chat.netlify.app/",
         "code":"https://github.com/sujaltangde/vibechat-app",
-        "desc":"Ability to group chat with different peoples at same time.",
+        "desc":"Ability to group chat with different peoples at real time.",
         "key":4
     }
 ]
