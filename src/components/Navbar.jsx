@@ -35,7 +35,7 @@ export const Navbar = () => {
         <div className={` ${toggle ? "flex" : "hidden"} `} >
           <ul className='md:hidden top-12 fixed w-full flex justify-top items-center flex-col gap-16 pt-24 z-10 h-screen py-8 text-xl bg-gray-900 opacity-95 text-white font-bold'>
             <Link className='cursor-pointer' spy={true} smooth={true} offset={0} duration={300} onClick={() => setToggle(!toggle)} to="home">Home</Link>
-            <Link className='cursor-pointer' spy={true} smooth={true} offset={0} duration={300} onClick={() => setToggle(!toggle)} to="experience">Experience</Link>
+            <Link className='cursor-pointer' spy={true} smooth={true} offset={0} duration={300} onClick={() => setToggle(!toggle)} to="experience">Skills</Link>
             <Link className='cursor-pointer' spy={true} smooth={true} offset={0} duration={300}  onClick={() => setToggle(!toggle)} to="projects">Projects</Link>
             <Link className='cursor-pointer' spy={true} smooth={true} offset={0} duration={300}  onClick={() => setToggle(!toggle)} to="certificates">Certificates</Link>
             <Link className='cursor-pointer' spy={true} smooth={true} offset={0} duration={300} onClick={() => setToggle(!toggle)} to="contact">Contact</Link>
