@@ -6,7 +6,7 @@ export const Certificates = () => {
         <>
 
 
-            <div id="certificates" className='min-h-screen pt-24 md:pt-16 bg-gradient-to-b from-gray-900 to-gray-900'>
+            <div id="certificates" className='min-h-screen pt-20 md:pt-20 bg-gradient-to-b from-gray-900 to-gray-900'>
                 <div className='md:px-20 px-5'>
                     <div className='text-white'>
                         <p className='font-bold md:text-5xl  text-3xl'>Certificates</p>

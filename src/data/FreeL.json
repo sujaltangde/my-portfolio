@@ -1,0 +1,11 @@
+[
+    {
+        "image":"/images/thakDis.PNG",
+        "title":"Thakre Disposals Landing Page",
+        "tech":["HTML","CSS","Javascript","React.Js","Tailwind CSS","Vite"],
+        "demo":" https://thakre-disposals.vercel.app/",
+        "code":"https://github.com/sujaltangde/thakre-disposals",
+        "desc":"Freelance project created for one of my client for his business.",
+        "key":1       
+    }
+]

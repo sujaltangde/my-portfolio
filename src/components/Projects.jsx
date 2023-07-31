@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectsSource from '../data/ProjectsSource.json'
+import FreeL from '../data/FreeL.json'
 
 
 export const Projects = () => {
@@ -40,23 +41,82 @@ export const Projects = () => {
                       </div>
                       <p className='text-xl text-left pl-3 font-bold py-2'>{e.title}</p>
                       <p className='px-3 text-left pl-3  '>{e.desc}</p>
+                      <div className='flex flex-wrap px-3 pt-3 gap-3  justify-start'>
+                        {e.tech.map((t) => (
 
-
-                    
-
-
-                    <div className='flex flex-wrap px-3 pt-3 gap-3  justify-start'>
-                      { e.tech.map((t)=>(
-
-                        <span className='bg-gradient-to-b from-black to-gray-900 px-2 text-sm 
+                          <span className='bg-gradient-to-b from-black to-gray-900 px-2 text-sm 
                       py-1'>{t}</span>
-                      ))
-                      }
+                        ))
+                        }
 
 
+                      </div>
                     </div>
+
+                  </div>
+
+
+
+
+                </>
+
+
+
+
+
+
+              ))
+            }
+
+
+
+          </div >
+
+
+          <div className='pb-4 md:pb-8 md:pt-14 pt-12 '>
+            <p className='font-bold md:text-3xl  text-2xl'>FreeLance Projects</p>
+          </div>
+
+          <div className='grid md:grid-cols-3 grid-cols-1   md:gap-10 gap-10'>
+
+
+            {
+              FreeL.map((e) => (
+
+                <>
+
+                  <div className=' h-fit group shadow-md   shadow-blue-500  rounded-md p-1 cursor-pointer'>
+                    <div className='text-center relative  overflow-hidden  '>
+                      <img src={e.image} className='  ' alt="" />
+                      <div className='absolute h-full w-full bg-black/60 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300'>
+
+                        <div className='flex flex-col gap-6 pt-12'>
+                          <div className='flex justify-center gap-12'>
+                            <a href={e.demo} target="_blank" rel="noopener noreferrer">
+                              <button className='bg-gradient-to-r text-md md:text-xl font-semibold from-cyan-500 to-blue-700 px-6 py-1 rounded text-white'>Live</button></a>
+
+                            <a href={e.code} target="_blank" rel="noopener noreferrer">
+                              <button className='bg-gradient-to-r text-md md:text-xl font-semibold from-cyan-500 to-blue-700 px-6 py-1 rounded text-white'>Code</button>
+                            </a>
+                          </div>
+                          <p className='font-bold text-sm md:text-md'>{e.stack}</p>
+                        </div>
+
+                      </div>
+                      <p className='text-xl text-left pl-3 font-bold py-2'>{e.title}</p>
+                      <p className='px-3 text-left pl-3  '>{e.desc}</p>
+                      <div className='flex flex-wrap px-3 pt-3 gap-3  justify-start'>
+                        {e.tech.map((t) => (
+
+                          <span className='bg-gradient-to-b from-black to-gray-900 px-2 text-sm 
+                      py-1'>{t}</span>
+                        ))
+                        }
+
+
+                      </div>
                     </div>
-                    
+
                   </div>
 
 
