@@ -1,12 +1,21 @@
 [
-    {
+	{
+        "image":"/images/ecomweb.jpg",
+        "title":"Stellarmart - Ecommerce Website",
+        "tech":["React.Js","Redux","Tailwind","Node.Js","Express.Js"," MongoDB"],
+        "demo":"https://stellarmart.netlify.app/",
+        "code":"https://github.com/sujaltangde/StellarMart",
+        "desc":"Full Stack Ecommerce website with payment integration, admin dashboard and many amazing features.",
+        "key":1
+    },
+	{
         "image":"/images/blog.png",
-        "title":"Blogwiz - Bloging Platform",
+        "title":"Blogwiz - Blogging Platform",
         "tech":["React.Js","Redux","Tailwind","Node.Js","Express.Js"," MongoDB"],
         "demo":"https://blogwiz-01.netlify.app/",
         "code":"https://github.com/sujaltangde/Blogwiz-app/",
-        "desc":"Ability to create and update articles along with user creation also have search feature.",
-        "key":1
+        "desc":"Ability to create and update articles along with user creation also have search functionality.",
+        "key":2
     },
     {
         "image":"/images/todo.png",
@@ -15,7 +24,7 @@
         "demo":"https://doithero.netlify.app/",
         "code":"https://github.com/sujaltangde/doithero-app",
         "desc": "Ability to add and edit your tasks and access it from any device.",
-        "key":2
+        "key":3
     },
     {
         "image":"/images/weather.png",
@@ -24,7 +33,7 @@
         "demo":"https://weatherapp-d3ecd.web.app/",
         "code":"https://github.com/sujaltangde/WeatherApp",
         "desc":"Ability to show realtime weather related data from diffrent cities.",
-        "key":3
+        "key":4
     },
     {
         "image":"/images/chat.PNG",
@@ -33,6 +42,6 @@
         "demo":"https://vibe-chat.netlify.app/",
         "code":"https://github.com/sujaltangde/vibechat-app",
         "desc":"Ability to group chat with different peoples at real time.",
-        "key":4
+        "key":5
     }
 ]
