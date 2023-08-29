@@ -23,7 +23,7 @@
         "tech":["React.Js","Redux","Tailwind","Node.Js","Express.Js"," MongoDB"],
         "demo":"https://doithero.netlify.app/",
         "code":"https://github.com/sujaltangde/doithero-app",
-        "desc": "Ability to add and edit your tasks and access it from any device.",
+        "desc": "Ability to add, edit and delete your tasks and also have authentication and database integration.",
         "key":3
     },
     {
